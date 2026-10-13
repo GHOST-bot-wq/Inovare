@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <rect width="600" height="380" fill="#0d0e12" />
+  <!-- Plataforma Giratória e Coluna do Scanner Corporal 3D -->
+  <g transform="translate(190, 40)">
+    <!-- Base Circular de Pesagem e Bioimpedância -->
+    <ellipse cx="110" cy="240" rx="90" ry="25" fill="#1b1d24" stroke="#D5C2A0" stroke-width="2" />
+    <ellipse cx="110" cy="240" rx="60" ry="16" fill="#131418" stroke="#A88B54" />
+    <!-- Coluna de Sensores Ópticos / Infravermelho -->
+    <rect x="100" y="30" width="20" height="200" fill="#22252e" stroke="#444" />
+    <circle cx="110" cy="50" r="6" fill="#D5C2A0" />
+    <circle cx="110" cy="110" r="6" fill="#D5C2A0" />
+    <circle cx="110" cy="170" r="6" fill="#D5C2A0" />
+    <!-- Feixes Laser Horizontais de Escaneamento 3D -->
+    <line x1="120" y1="50" x2="220" y2="50" stroke="#D5C2A0" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.8" />
+    <line x1="120" y1="110" x2="220" y2="110" stroke="#D5C2A0" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.8" />
+    <line x1="120" y1="170" x2="220" y2="170" stroke="#D5C2A0" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.8" />
+  </g>
+  <!-- Legenda -->
+  <rect x="140" y="315" width="320" height="32" rx="16" fill="#15171e" stroke="rgba(213, 194, 160, 0.3)" />
+  <text x="300" y="335" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" letter-spacing="1.5" fill="#D5C2A0" text-anchor="middle">SCANNER CORPORAL 3D &amp; BIOIMPEDÂNCIA</text>
+</svg>

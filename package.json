@@ -1,0 +1,21 @@
+{
+  "name": "innovare-femine",
+  "version": "1.0.0",
+  "description": "Site institucional premium da Innovare Femine — Estética Face & Corpo",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve . --listen 3000",
+    "start": "npx serve . --listen 3000",
+    "build": "node build.js",
+    "test": "node test-site.js"
+  },
+  "keywords": [
+    "innovare-femine",
+    "estetica-facial",
+    "estetica-corporal",
+    "beleza",
+    "clinica-estetica"
+  ],
+  "author": "Innovare Femine",
+  "license": "UNLICENSED"
+}

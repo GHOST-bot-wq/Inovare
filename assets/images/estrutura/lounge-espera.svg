@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <rect width="600" height="380" fill="#141311" />
+  <!-- Poltronas de Couro e Mesa de Apoio em Travertino -->
+  <rect x="80" y="160" width="160" height="150" rx="12" fill="#26231e" stroke="#3d372e" stroke-width="1.5" />
+  <rect x="360" y="160" width="160" height="150" rx="12" fill="#26231e" stroke="#3d372e" stroke-width="1.5" />
+  <circle cx="300" cy="245" r="45" fill="#38332c" stroke="#D5C2A0" stroke-width="1.5" />
+  <!-- Luminária de Piso em Dourado Champagne -->
+  <line x1="50" y1="80" x2="50" y2="310" stroke="#A88B54" stroke-width="2" />
+  <circle cx="50" cy="80" r="16" fill="#D5C2A0" filter="drop-shadow(0 0 16px rgba(213, 194, 160, 0.8))" />
+  <!-- Legenda -->
+  <rect x="200" y="325" width="200" height="28" rx="14" fill="#0c0c0c" stroke="rgba(213, 194, 160, 0.3)" />
+  <text x="300" y="343" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" letter-spacing="1.5" fill="#D5C2A0" text-anchor="middle">LOUNGE PRIVATIVO DE ESPERA</text>
+</svg>

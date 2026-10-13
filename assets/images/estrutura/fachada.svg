@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <defs>
+    <linearGradient id="facadeSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#191919" />
+      <stop offset="100%" stop-color="#0e0e0e" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#facadeSky)" />
+  <!-- Prédio / Fachada Moderna de Alto Padrão em Londrina -->
+  <rect x="80" y="60" width="440" height="280" fill="#1b1a19" stroke="#333" stroke-width="1.5" />
+  <!-- Esquadrias e Vidro Espelhado -->
+  <rect x="110" y="90" width="170" height="210" fill="#24272c" stroke="#403c37" stroke-width="1.5" />
+  <rect x="310" y="90" width="180" height="130" fill="#24272c" stroke="#403c37" stroke-width="1.5" />
+  <!-- Portal de Entrada com Iluminação Champagne -->
+  <rect x="310" y="240" width="180" height="100" fill="#121212" stroke="#D5C2A0" stroke-width="1.5" />
+  <rect x="290" y="235" width="220" height="6" fill="#D5C2A0" filter="drop-shadow(0 4px 12px #D5C2A0)" />
+  <text x="400" y="270" font-family="'Playfair Display', serif" font-size="11" letter-spacing="2" fill="#D5C2A0" text-anchor="middle">INSTITUTO REVITALI</text>
+  <text x="400" y="290" font-family="'Plus Jakarta Sans', sans-serif" font-size="8" letter-spacing="1" fill="#FFFFFF" text-anchor="middle">LONDRINA • PARANÁ</text>
+</svg>

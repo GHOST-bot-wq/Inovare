@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="100%" height="100%">
+  <rect width="600" height="380" fill="#0f0f10" />
+  <!-- Aparelho Ultraformer MPT Estilizado -->
+  <g transform="translate(180, 50)">
+    <!-- Base e Torre -->
+    <rect x="70" y="40" width="100" height="200" rx="8" fill="#1f2126" stroke="#D5C2A0" stroke-width="1.5" />
+    <!-- Tela Touchscreen com Curva de Potência -->
+    <rect x="78" y="55" width="84" height="60" rx="4" fill="#090a0d" stroke="#333" />
+    <path d="M85 95 Q 110 65, 135 85 T 155 70" fill="none" stroke="#D5C2A0" stroke-width="2" />
+    <circle cx="135" cy="85" r="3" fill="#D5C2A0" />
+    <!-- Manípulo / Handpiece Ultrassônico -->
+    <rect x="180" y="90" width="30" height="110" rx="6" fill="#2d3038" stroke="#A88B54" />
+    <!-- Cabo conector -->
+    <path d="M195 200 C 195 250, 120 250, 120 240" fill="none" stroke="#555" stroke-width="3" />
+    <!-- Ondas de Ultrassom Microfocado -->
+    <circle cx="195" cy="65" r="14" fill="none" stroke="#D5C2A0" stroke-width="1.5" stroke-dasharray="4 2" />
+    <circle cx="195" cy="65" r="24" fill="none" stroke="#D5C2A0" stroke-width="1" stroke-dasharray="4 4" opacity="0.6" />
+  </g>
+  <!-- Legenda -->
+  <rect x="150" y="315" width="300" height="32" rx="16" fill="#18181a" stroke="rgba(213, 194, 160, 0.3)" />
+  <text x="300" y="335" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" letter-spacing="1.5" fill="#D5C2A0" text-anchor="middle">ULTRAFORMER MPT • ULTRASSOM DE PRECISÃO</text>
+</svg>

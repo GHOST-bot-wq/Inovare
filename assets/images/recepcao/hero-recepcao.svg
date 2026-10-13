@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1080" width="100%" height="100%">
+  <defs>
+    <radialGradient id="warmLight" cx="60%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#D5C2A0" stop-opacity="0.35" />
+      <stop offset="40%" stop-color="#A88B54" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#080808" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="slatGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a251f" />
+      <stop offset="50%" stop-color="#1a1815" />
+      <stop offset="100%" stop-color="#0f0e0c" />
+    </linearGradient>
+    <linearGradient id="marbleDesk" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#222222" />
+      <stop offset="35%" stop-color="#2c2a26" />
+      <stop offset="70%" stop-color="#1f1e1c" />
+      <stop offset="100%" stop-color="#171717" />
+    </linearGradient>
+    <linearGradient id="accentGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A88B54" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#D5C2A0" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#A88B54" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo Noturno Arquitetônico -->
+  <rect width="900" height="1080" fill="#0c0c0c" />
+  <rect width="900" height="1080" fill="url(#warmLight)" />
+
+  <!-- Painel Ripado de Madeira Nobre Iluminado -->
+  <g opacity="0.85">
+    <rect x="80" y="80" width="14" height="650" fill="url(#slatGradient)" />
+    <rect x="110" y="80" width="14" height="650" fill="url(#slatGradient)" />
+    <rect x="140" y="80" width="14" height="650" fill="url(#slatGradient)" />
+    <rect x="170" y="80" width="14" height="650" fill="url(#slatGradient)" />
+    <rect x="200" y="80" width="14" height="650" fill="url(#slatGradient)" />
+    <rect x="230" y="80" width="14" height="650" fill="url(#slatGradient)" />
+    <rect x="260" y="80" width="14" height="650" fill="url(#slatGradient)" />
+    <rect x="290" y="80" width="14" height="650" fill="url(#slatGradient)" />
+  </g>
+
+  <!-- Iluminação Embutida em LED Linear (Warm Light 3000K) -->
+  <rect x="60" y="80" width="4" height="650" fill="#D5C2A0" opacity="0.6" filter="drop-shadow(0 0 12px #D5C2A0)" />
+  
+  <!-- Balcão de Recepção em Mármore Escuro com Filete Champagne -->
+  <rect x="120" y="580" width="660" height="280" rx="8" fill="url(#marbleDesk)" stroke="#2f2d29" stroke-width="1.5" />
+  <line x1="120" y1="582" x2="780" y2="582" stroke="url(#accentGlow)" stroke-width="3" />
+  <line x1="150" y1="840" x2="750" y2="840" stroke="#D5C2A0" stroke-width="1" opacity="0.4" />
+
+  <!-- Monograma na Parede de Fundo da Recepção -->
+  <g transform="translate(490, 240)">
+    <circle cx="60" cy="60" r="50" fill="#141414" stroke="#D5C2A0" stroke-width="1.5" opacity="0.9" />
+    <text x="60" y="68" font-family="'Playfair Display', Georgia, serif" font-size="34" font-weight="600" fill="#D5C2A0" text-anchor="middle">R</text>
+    <text x="60" y="130" font-family="'Playfair Display', Georgia, serif" font-size="14" letter-spacing="3" fill="#FFFFFF" text-anchor="middle" opacity="0.8">INSTITUTO REVITALI</text>
+  </g>
+
+  <!-- Luminária Pendente Linear de Alto Padrão -->
+  <line x1="320" y1="0" x2="320" y2="380" stroke="#666" stroke-width="1.5" />
+  <line x1="580" y1="0" x2="580" y2="380" stroke="#666" stroke-width="1.5" />
+  <rect x="260" y="380" width="380" height="8" rx="4" fill="#D5C2A0" filter="drop-shadow(0 6px 16px rgba(213, 194, 160, 0.7))" />
+
+  <!-- Tag de Legenda da Fotografia Oficial -->
+  <g transform="translate(60, 940)">
+    <rect width="780" height="80" rx="8" fill="#141414" stroke="rgba(213, 194, 160, 0.3)" />
+    <text x="24" y="34" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" letter-spacing="2" fill="#D5C2A0">RECEPÇÃO &amp; LOUNGE BOUTIQUE</text>
+    <text x="24" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" fill="#A3A3A3">Ambiente desenhado para privacidade, acolhimento e conforto em Londrina</text>
+  </g>
+</svg>
